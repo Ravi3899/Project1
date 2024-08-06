@@ -1,0 +1,333 @@
+.ankr {
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+
+.seankr {
+    color: black;
+    margin: 7px;
+    color: brown;
+    font-size: 15px;
+}
+
+.fstspn {
+    color: brown;
+    font-size: 15px;
+}
+
+.fstmd {
+    text-align: end;
+}
+
+.secspn {
+    color: white;
+    font-size: 12px;
+}
+
+.fstscetn {
+    background-color: black;
+    padding: 10px;
+}
+
+.active {
+    margin: 10px;
+}
+
+.secrow {
+    
+    align-items: center;
+}
+.newlist {color: white !important;}
+
+.sectdmd {
+
+    text-align: end !important;
+}
+
+.secsecnt {
+    background: url(/images/BULGING.jpg);
+    background-attachment: fixed;
+}
+
+.fshnd {
+    color: white;
+}
+
+.fsthdv {
+    margin-top: 10%;
+}
+
+.secbtn {
+    margin-top: 13%;
+    margin-bottom: 15%;
+}
+
+.trdrowbtn {
+    border: none;
+    border: solid 2px white;
+    background: none;
+    padding: 10px 30px;
+    color: white;
+}
+
+.fstcrd {
+    border: none;
+}
+
+.seccrd {
+    color: gray;
+}
+
+.trdbtn {
+    
+    text-align: end !important;
+}
+
+.trdrow {
+    margin-top: 40px;
+    align-items: center;
+}
+
+.fsthdn {
+    font-size: 25px;
+    color: white;
+}
+
+.trdsecbtn {
+    padding: 7px 30px;
+    border: none;
+    border: solid 1px white;
+    background: none;
+    color: white;
+    font-size: 17px;
+}
+
+.trdsect {
+    background-color: orangered;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.frsechnd {
+    text-align: center;
+    position: relative;
+    color: white;
+    padding: 20px;
+}
+
+.frsechnd::before {
+    content: '';
+    width: 4%;
+    height: 4px;
+    background-color: brown;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.onnewrow::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: aqua;
+    position: absolute;
+    left: 0;right: 0;top: 52%;
+}
+
+.fstperegrp {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.frtrow {
+    margin-top: 70px;
+}
+
+.onewcol {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    text-align: center;background: none; background-color: brown;z-index: 1000;
+} 
+.newankr {text-decoration: none; padding: 80px 0px; color: black;}
+.onnewrow { position: relative; text-align: justify !important;}
+
+.fifthsect {
+    background: url(/images/BULGING.jpg);
+    background-position: center;
+}
+
+.btfsdv {
+    text-align: center;
+    border: none !important;
+    background: none;
+}
+
+.icon {
+    font-size: 45px;
+}
+
+.fstper {
+    font-size: 20px;
+}
+
+.sixsectn {
+    background-color: orangered;
+}
+
+.carousel-inner {
+    text-align: center;
+    color: white;
+}
+
+.sevnsecton {
+    background: url(/images/HTODA.jpg);
+    background-position: center;
+    padding: 30px;
+    background-attachment: fixed;
+}
+
+.lstdv {
+    text-align: center;
+}
+
+.icns {
+    margin: 10px;
+    color: gray;
+}
+
+.lstcrd {
+    border: none;
+}
+
+.lstpere {
+    color: white;
+}
+
+.lastsectn {
+    background-color: black;
+    padding: 20px;
+}
+
+.newcard {
+    border: none;
+    position: relative;
+}
+
+.newcrbd {
+    width: 90%;
+    height: 90%;
+    left: 15px;
+    top: 15px;
+    padding: 70px 0px;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    opacity: 0%;
+    transition: 1s;
+}
+
+.newcrbd::before {
+    content: '';
+    width: 70%;
+    height: 2px;
+    background-color: brown;
+    position: absolute;
+    right: 40px;
+    margin-top: 30px;
+
+}
+
+.newcrbd:hover {
+    opacity: 100%;
+}
+
+.phnd {
+    color: white;
+}
+
+.selssectn {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+}
+
+.newrow {
+    margin-top: 15%;
+}
+.navbar-toggler {margin: auto;}
+
+
+
+
+
+@media screen and (min-width: 600px) and (max-width:900px) {
+    .fstspn {
+        font-size: 8px;
+    }
+
+    .secspn {
+        font-size: 8px;
+    }
+
+    .seankr {
+        font-size: 8px;
+    }
+
+    .navbar-toggler {
+        margin: auto;
+    }
+    .onnewrow::after {display: none;}
+
+}
+
+@media screen and (min-width: 250px) and (max-width:600px) {
+    .fstscetn {
+        display: none;
+    }
+
+    .navbar-toggler {
+        margin: auto;
+    }
+    .onnewrow::after {display: none;}
+}
+
+@media screen and (min-width: 800px) and (max-width:1496px) {
+    .selssectn {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:800px) {
+    .newcol {
+        width: 25% !important;
+    }
+
+    .selssectn {
+        margin-top: 25%;
+    }
+    .fsthdn {font-size: 20px !important;}
+}
+
+@media screen and (min-width: 300px) and (max-width:600px) {
+    .newcol {
+        width: 25% !important;
+    }
+
+    .selssectn {
+        margin-top: 25%;
+    }
+    .fsthdn {font-size: 20px !important;}
+    .trdsecbtn {padding: 4px 17px;font-size: 12px;}
+    
+}
